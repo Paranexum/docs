@@ -1,29 +1,29 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Paranexum",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/Paranexum.png",
+    "light": "/logo/Paranexum.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/Paranexum.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#2563eb",
+    "light": "#2563eb",
+    "dark": "#2563eb",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#2563eb",
+      "to": "#1d4ed8"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@paranexum.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://wwww.paranexum.com/dashboard/"
   },
   "tabs": [
     {
@@ -33,59 +33,50 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Paranexum",
+      "icon": "globe",
+      "url": "https://www.paranexum.com"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
+      "name": "Learn",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://www.paranexum.com/learn/"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["introduction"]
     },
     {
       "group": "Essentials",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "essentials/pricing",
+        "essentials/analytics",
+        "essentials/partners"
       ]
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Endpoints",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/analytics",
+        "api-reference/endpoint/partners"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/paranexum",
+    "github": "https://github.com/paranexum",
+    "instagram": "https://www.instagram.com/paranexum/"
+  },
+  "api": {
+    "baseUrl": "https://www.paranexum.com/api", 
+    "auth": {
+      "method": "bearer"
+    }
   }
 }

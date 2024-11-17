@@ -1,0 +1,22 @@
+modules = ["nodejs-20"]
+run = "mintlify dev"
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
+
+[workflows]
+
+[[workflows.workflow]]
+name = "Run"
+mode = "sequential"
+author = 5601411
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "mintlify dev"
+
+[deployment]
+run = ["sh", "-c", "mintlify dev"]

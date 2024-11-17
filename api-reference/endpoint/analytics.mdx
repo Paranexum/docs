@@ -1,0 +1,44 @@
+---
+title: 'Get Analytics'
+api: 'POST https://www.paranexum.com/api/v1/analytics'
+---
+
+<ResponseField name="campaign" type="Campaign Object">
+  <Expandable title="Campaign Properties">
+    <ResponseField name="clicks" type="number">
+      The number of clicks
+    </ResponseField>
+
+    <ResponseField name="impressions" type="number">
+      The number of impressions
+    </ResponseField>
+
+    <ResponseField name="ctr" type="string">
+      The click-through rate
+    </ResponseField>
+  </Expandable>
+</ResponseField>
+
+<ResponseField name="site" type="Site Object">
+  <Expandable title="Site Properties">
+    <ResponseField name="bounceRate" type="number">
+      The bounce rate of the site
+    </ResponseField>
+
+    <ResponseField name="uniqueUsers" type="number">
+      The number of unique users
+    </ResponseField>
+
+    <ResponseField name="countries" type="Array of Country">
+      <Expandable title="Country Properties">
+        <ResponseField name="country" type="string">
+          The country name
+        </ResponseField>
+
+        <ResponseField name="percentage" type="string">
+          The percentage of users from this country
+        </ResponseField>
+      </Expandable>
+    </ResponseField>
+  </Expandable>
+</ResponseField>
