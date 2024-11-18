@@ -3,7 +3,8 @@
   "name": "Paranexum",
   "logo": {
     "dark": "/logo/Paranexum.png",
-    "light": "/logo/Paranexum.png"
+    "light": "/logo/Paranexum.png",
+    "href": "https://www.paranexum.com"
   },
   "favicon": "/logo/Paranexum.png",
   "colors": {
@@ -14,6 +15,14 @@
       "from": "#2563eb",
       "to": "#1d4ed8"
     }
+  },
+
+  "background": {
+    "style": "windows"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
   },
   "topbarLinks": [
     {
@@ -68,13 +77,68 @@
       ]
     }
   ],
-  "footerSocials": {
-    "x": "https://x.com/paranexum",
-    "github": "https://github.com/paranexum",
-    "instagram": "https://www.instagram.com/paranexum/"
+  "footer": {
+    "socials": {
+      "x": "https://x.com/paranexum",
+      "github": "https://github.com/paranexum",
+      "instagram": "https://www.instagram.com/paranexum/"
+    },
+    "links": [
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "Integrations",
+            "url": "https://www.paranexum.com/dashboard/integrate/"
+          },
+          {
+            "label": "Pricing",
+            "url": "https://www.paranexum.com/pricing/"
+          },
+          {
+            "label": "Features",
+            "url": "https://www.paranexum.com/#features"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "Careers",
+            "url": "https://www.paranexum.com/careers/"
+          },
+          {
+            "label": "Blog",
+            "url": "https://www.paranexum.com/learn/"
+          },
+          {
+            "label": "Case Studies",
+            "url": "https://www.paranexum.com/learn/"
+          },
+          {
+            "label": "About Us",
+            "url": "https://www.paranexum.com/about/"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          {
+            "label": "Privacy Policy",
+            "url": "https://www.paranexum.com/privacy/"
+          },
+          {
+            "label": "Terms of Service",
+            "url": "https://www.paranexum.com/terms/"
+          }
+        ]
+      }
+    ]
   },
   "api": {
-    "baseUrl": "https://www.paranexum.com/api", 
+    "baseUrl": "https://www.paranexum.com/api",
     "auth": {
       "method": "bearer"
     }
